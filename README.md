@@ -17,37 +17,31 @@ bash <(curl -fsSL https://raw.githubusercontent.com/ljbzbj520/singbox-vless/main
 
 ## 快捷管理
 
-安装完成后使用 `sb` 命令：
+查看节点信息与 VLESS 分享链接：
 
 ```bash
 sb
 ```
 
-查看节点信息与 VLESS 分享链接。
+查看服务运行状态：
 
 ```bash
 sb status
 ```
 
-查看服务运行状态。
+查看实时连接日志：
 
 ```bash
 sb log
 ```
 
-查看实时连接日志。
+重启节点服务：
 
 ```bash
 sb restart
 ```
 
-重启节点服务。
 
-```bash
-sb uninstall
-```
-
-一键彻底卸载清理。
 
 ## 一键卸载
 
